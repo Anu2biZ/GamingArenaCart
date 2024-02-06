@@ -1,0 +1,86 @@
+@keyframes header {
+  0% {
+    background: url("../../images/gamingonlinestore/circle-left.svg") no-repeat -100px -200px, url("../../images/gamingonlinestore/circle-right.svg") no-repeat 120% -200px;
+  }
+  100% {
+    background: url("../../images/gamingonlinestore/circle-left.svg") no-repeat left 0px, url("../../images/gamingonlinestore/circle-right.svg") no-repeat right 0px;
+  }
+}
+
+@keyframes headerMobile {
+  0% {
+    background: url("../../images/gamingonlinestore/circle-left.svg") no-repeat -100px -200px, url("../../images/gamingonlinestore/circle-right.svg") no-repeat 90% -200px;
+  }
+  100% {
+    background: url("../../images/gamingonlinestore/circle-left.svg") no-repeat left 0px, url("../../images/gamingonlinestore/circle-right.svg") no-repeat right 0px;
+  }
+}
+
+@keyframes smileGlass {
+  0% {
+    transform: rotate(45deg);
+    filter: blur(1px);
+  }
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+
+
+@keyframes smileWow {
+  0% {
+    transform: rotate(45deg) translateY(-50%);
+    margin-left: 100%;
+  }
+  100% {
+    transform: rotate(-45deg) translateY(10%);
+    margin-right: 100%;
+  }
+}
+
+
+@keyframes spiralLeft {
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1.1) translateX(-25px) translateY(20px);
+  }
+}
+
+@keyframes spiralRight {
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1.1) translateX(25px) translateY(10px);
+  }
+}
+
+@keyframes sliderAnimateTop {
+  0%{
+    transform: translateX(-100px);
+  }
+  100%{
+    transform: translateX(100px);
+  }
+}
+
+@keyframes sliderAnimateBottom {
+  0%{
+    transform: translateX(100px);
+  }
+  100%{
+    transform: translateX(-100px);
+  }
+}
+
+@keyframes rocket {
+  0%{
+    transform: translate(-2000px, 200px) rotate(50deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(70deg);
+  }
+}
+

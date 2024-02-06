@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@import 'modules/vars.scss';
+@import 'animation.scss';
+@import 'modules/header.scss';
+@import 'modules/footer.scss';
+@import 'pages/store.scss';
+@import 'pages/deposit.scss';
+@import 'pages/stream.scss';
+
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+  height: auto;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-wrapper {
+  min-height: 100vh;
+  animation: header 1s linear;
+  animation-fill-mode: forwards;
+  padding-top: 32px;
+}
